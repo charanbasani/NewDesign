@@ -37,7 +37,7 @@ HorizontalHomeAdapter horizontalHomeAdapter;
         setContentView(R.layout.activity_home);
         emp_recycler_view_restuarent=findViewById(R.id.emp_recycler_view_restuarent);
         emp_recycler_view=findViewById(R.id.emp_recycler_view);
-
+//c
         emp_recycler_view.setLayoutManager(new LinearLayoutManager(Home.this, LinearLayoutManager.HORIZONTAL, false));
 
         emp_recycler_view.setItemAnimator(new DefaultItemAnimator());
