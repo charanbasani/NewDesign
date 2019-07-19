@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.EmployeeActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/imageprofile"
+                        android:src="@drawable/index"
+                        android:layout_gravity="center"
+                        app:civ_border_color="@color/colorAccent"
+                        android:layout_height="50dp" />
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="#000000"
+                            android:text="Adam Smith"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="+123-12334-1233"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_notifications_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="5dp"
+            android:id="@+id/emp_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:text="FEATURED RESTUARaNTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/emp_recycler_view_restuarent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/ic_crop_landscape_black_24dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:typeface="serif"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:text="scan the code"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
