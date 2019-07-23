@@ -2,6 +2,7 @@ package com.swagqueen.lulloo.newdesign;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -45,6 +46,14 @@ TextView peopletotal;
 
 peopletotal=findViewById(R.id.peopletotal);
         Button confirmbooking = findViewById(R.id.booking);
+        Button ratingbar = findViewById(R.id.ratingbar);
+        ratingbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Dialogs.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
          peopleslayout = findViewById(R.id.peopleslayout);
         Button selectpeoples = findViewById(R.id.nmberofpeople);
 

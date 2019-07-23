@@ -5,14 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity  {
 CheckBox radio_button1,radio_button2,radio_button3,radio_button4;
+LinearLayout linereditreview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_qmain);
+        linereditreview=findViewById(R.id.linereditreview);
         radio_button1=findViewById(R.id.radio_button1);
         radio_button2=findViewById(R.id.radio_button2);
         radio_button3=findViewById(R.id.radio_button3);

@@ -44,6 +44,16 @@
         android:text="booking"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/ratingbar"
+        android:text="REVIEW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/booking Order"
+        android:text="REVIEW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 <LinearLayout
@@ -121,7 +131,7 @@
                 android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>
-    
+
 </LinearLayout>
 
 
