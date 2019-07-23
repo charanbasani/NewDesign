@@ -50,12 +50,12 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content">
 
-                    <RadioGroup
+                    <LinearLayout
                         android:id="@+id/radiog"
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
-                        <RadioButton
+                        <CheckBox
                             android:id="@+id/radiobutton1"
                             android:layout_marginLeft="4dp"
                             android:layout_width="32dp"
@@ -68,31 +68,31 @@
                             android:text="1"
                             android:textAlignment="center"
                             />
-                        <RadioButton
+                        <CheckBox
                         android:id="@+id/radiobutton2"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
                         android:layout_height="32dp"
-                        android:background="@drawable/checkbox_background"
+                            android:background="@drawable/checkbox_background"
                         android:button="@null"
                         android:gravity="center"
                         android:textSize="12sp"
                         android:padding="3dp"
                         android:text="2"
                         android:textAlignment="center"
-                        /><RadioButton
+                        /><CheckBox
                         android:id="@+id/radiobutton3"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
                         android:layout_height="32dp"
-                        android:background="@drawable/checkbox_background"
+                        android:background="@drawable/a"
                         android:button="@null"
                         android:gravity="center"
                         android:textSize="12sp"
                         android:padding="3dp"
                         android:text="3"
                         android:textAlignment="center"
-                        /><RadioButton
+                        /><CheckBox
                         android:id="@+id/radiobutton4"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -104,7 +104,7 @@
                         android:padding="3dp"
                         android:text="4"
                         android:textAlignment="center"
-                        /><RadioButton
+                        /><CheckBox
                         android:id="@+id/radiobutton5"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -116,7 +116,7 @@
                         android:padding="3dp"
                         android:text="5"
                         android:textAlignment="center"
-                        /><RadioButton
+                        /><CheckBox
                         android:id="@+id/radiobutton6"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -128,7 +128,7 @@
                         android:padding="3dp"
                         android:text="6"
                         android:textAlignment="center"
-                        /><RadioButton
+                        /><CheckBox
                         android:id="@+id/radiobutton7"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -139,8 +139,8 @@
                         android:textSize="12sp"
                         android:padding="3dp"
                         android:text="7"
-                        android:textAlignment="center"
-                        /><RadioButton
+                        android:textAlignment="center" />
+                        <CheckBox
                         android:id="@+id/radiobutton8"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -153,7 +153,7 @@
                         android:text="8"
                         android:textAlignment="center"
                         />
-                        <RadioButton
+                        <CheckBox
                             android:id="@+id/radiobutton9"
                             android:layout_marginLeft="4dp"
                             android:layout_width="32dp"
@@ -166,7 +166,7 @@
                             android:text="9"
                             android:textAlignment="center"
                             />
-                        <RadioButton
+                        <CheckBox
                             android:id="@+id/radiobutton10"
                             android:layout_marginLeft="4dp"
                             android:layout_width="32dp"
@@ -179,7 +179,7 @@
                             android:text="10"
                             android:textAlignment="center"
                             />
-                    </RadioGroup>
+                    </LinearLayout>
 
                </HorizontalScrollView>
 
@@ -206,12 +206,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                <RadioGroup
+                <LinearLayout
                     android:id="@+id/radiogkids"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radiobuttonkids1"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -223,7 +223,7 @@
                         android:padding="3dp"
                         android:text="1"
                         android:textAlignment="center"
-                        /><RadioButton
+                        /><CheckBox
                     android:id="@+id/radiobuttonkids2"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -235,7 +235,7 @@
                     android:padding="3dp"
                     android:text="2"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonkids3"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -247,7 +247,7 @@
                     android:padding="3dp"
                     android:text="3"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonkids4"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -259,7 +259,7 @@
                     android:padding="3dp"
                     android:text="4"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonkids5"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -271,7 +271,7 @@
                     android:padding="3dp"
                     android:text="5"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonkids6"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -283,7 +283,7 @@
                     android:padding="3dp"
                     android:text="6"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonkids7"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -295,7 +295,7 @@
                     android:padding="3dp"
                     android:text="7"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonkids8"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -308,7 +308,7 @@
                     android:text="8"
                     android:textAlignment="center"
                     />
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radiobuttonkids9"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -321,7 +321,7 @@
                         android:text="9"
                         android:textAlignment="center"
                         />
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radiobuttonkids10"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -334,7 +334,7 @@
                         android:text="10"
                         android:textAlignment="center"
                         />
-                </RadioGroup>
+                </LinearLayout>
 
                 </HorizontalScrollView>
             </LinearLayout>
@@ -342,7 +342,7 @@
         </LinearLayout>
  <LinearLayout
      android:id="@+id/viewchairlayout"
-     android:visibility="gone"
+   android:visibility="gone"
             android:orientation="vertical"
             android:layout_marginTop="10dp"
             android:paddingLeft="16dp"
@@ -363,12 +363,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                <RadioGroup
+                <LinearLayout
                     android:id="@+id/radiogviewchair"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radiobuttonviewchair1"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -380,7 +380,7 @@
                         android:padding="3dp"
                         android:text="1"
                         android:textAlignment="center"
-                        /><RadioButton
+                        /><CheckBox
                     android:id="@+id/radiobuttonviewchair2"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -392,7 +392,7 @@
                     android:padding="3dp"
                     android:text="2"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonviewchair3"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -404,7 +404,7 @@
                     android:padding="3dp"
                     android:text="3"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonviewchair4"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -416,7 +416,7 @@
                     android:padding="3dp"
                     android:text="4"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonviewchair5"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -428,7 +428,7 @@
                     android:padding="3dp"
                     android:text="5"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonviewchair6"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -440,7 +440,7 @@
                     android:padding="3dp"
                     android:text="6"
                     android:textAlignment="center"
-                    /><RadioButton
+                    /><CheckBox
                     android:id="@+id/radiobuttonviewchair7"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -452,7 +452,8 @@
                     android:padding="3dp"
                     android:text="7"
                     android:textAlignment="center"
-                    /><RadioButton
+                    />
+                    <CheckBox
                     android:id="@+id/radiobuttonviewchair8"
                     android:layout_marginLeft="4dp"
                     android:layout_width="32dp"
@@ -465,7 +466,7 @@
                     android:text="8"
                     android:textAlignment="center"
                     />
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radiobuttonviewchair9"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -478,7 +479,7 @@
                         android:text="9"
                         android:textAlignment="center"
                         />
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radiobuttonviewchair10"
                         android:layout_marginLeft="4dp"
                         android:layout_width="32dp"
@@ -491,7 +492,7 @@
                         android:text="10"
                         android:textAlignment="center"
                         />
-                </RadioGroup>
+                </LinearLayout>
 
                 </HorizontalScrollView>
             </LinearLayout>

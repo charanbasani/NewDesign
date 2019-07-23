@@ -13,7 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".Dialogs" />
+        <activity android:name=".Dialogs" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!-- Broadcast receiver declaration in manifest file and make sure to enable it -->
         <activity android:name=".NetWork" />
 
@@ -39,11 +45,7 @@
 
         </activity>
         <activity android:name=".staticjson.activities.Home">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
